@@ -347,7 +347,12 @@ ul.social_icon_top li a:hover {
      text-transform: uppercase;
 }
 
-
+#logo-img {
+    width: 47%;
+    position: relative;
+    top: -40px;
+    right: 25px;
+}
 /*-- navigation--*/
 
 .navigation.navbar {
@@ -641,8 +646,10 @@ ul.search li a:hover {
 .project_text {
      position: absolute;
      bottom: 0;
-     height: 123px;
+     height: 60%;
+     width: 100%;
      overflow: hidden;
+     background-color: #010003f2;
      padding: 20px 20px 20px 20px;
      margin-right: 15px;
      transition: ease-in all 0.5s;
@@ -664,13 +671,14 @@ ul.search li a:hover {
 
 .project_text:hover {
      cursor: pointer;
-     background-color: #fffffff2;
-     height: 303px;
+     background-color: #070088f2;
+     color: #fff;
+     height: 70%;
      transition: ease-in all 0.5s;
 }
 
 #pro_ho:hover.project_text h3 {
-     color: #1b1a1a;
+     color: #ffffff;
      transition: ease-in all 0.5s;
      padding-top: 20px;
 }
@@ -687,7 +695,7 @@ ul.search li a:hover {
 }
 
 .project_text p {
-     color: #1b1a1a;
+     color: #ffffff;
      font-size: 17px;
      text-align: left;
      line-height: 28px;
